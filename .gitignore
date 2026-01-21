@@ -1,38 +1,15 @@
 ```
-# Build artifacts
-*.o
-*.obj
+# Backup files
+*.bak
+
+# Compiled libraries and executables
+*.a
+*.so
+*.dll
+*.exe
 *.out
-build/
-dist/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-*.env.*
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# OS files
-.DS_Store
-Thumbs.db
+# Build artifacts
+libmathlib.a
+test_mathlib
 ```
